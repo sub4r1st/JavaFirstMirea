@@ -1,4 +1,4 @@
-package ru.mirea.task1;
+package ru.mirea.task1.opt6;
 
 import java.util.Arrays;
 

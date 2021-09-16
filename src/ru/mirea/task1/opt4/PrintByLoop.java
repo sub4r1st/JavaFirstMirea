@@ -1,4 +1,4 @@
-package ru.mirea.task1;
+package ru.mirea.task1.opt4;
 
 import java.util.Scanner;
 
