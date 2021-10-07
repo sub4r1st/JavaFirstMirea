@@ -9,6 +9,9 @@ public class Main {
         ArrayList<Nameable> companies = new ArrayList<>();
         companies.add(toyota);
         companies.add(subaru);
+        Nameable nameable = subaru;
+        subaru = (Subaru) nameable;
+        subaru.tostring();
         for (Nameable company:
              companies) {
             System.out.println(company.getName());
