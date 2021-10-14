@@ -18,34 +18,41 @@ public class Gif extends JFrame{
 
     public void paint(Graphics g) {
         for(int i=0; i<3; i++) {
-            Image img = new ImageIcon("/Users/valera_kudryavtsev/Downloads/1200px-FC_Barcelona.svg.png").getImage();
+            Image img = new ImageIcon("/Users/bont1/Desktop/img1.png").getImage();
             g.drawImage(img, 50, 50, 300, 300, null);//выводим img
             try {
-                TimeUnit.SECONDS.sleep(1);
+                TimeUnit.SECONDS.sleep(0);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            img = new ImageIcon("/Users/bont1/Desktop/img2.png").getImage();
+            g.drawImage(img, 50, 50, 300, 300, null);//выводим img
+            try {
+                TimeUnit.SECONDS.sleep(0);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
 
-            img = new ImageIcon("/Users/valera_kudryavtsev/Downloads/1200px-Manchester_City_FC.svg.png").getImage();
+            img = new ImageIcon("/Users/bont1/Desktop/img3.png").getImage();
             g.drawImage(img, 50, 50, 300, 300, null);//выводим img
             try {
-                TimeUnit.SECONDS.sleep(1);
+                TimeUnit.SECONDS.sleep(0);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
 
-            img = new ImageIcon("/Users/valera_kudryavtsev/Downloads/FC_Lokomotiv.png").getImage();
+            img = new ImageIcon("/Users/bont1/Desktop/img4.png").getImage();
             g.drawImage(img, 50, 50, 300, 300, null);//выводим img
             try {
-                TimeUnit.SECONDS.sleep(1);
+                TimeUnit.SECONDS.sleep(0);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
 
-            img = new ImageIcon("/Users/valera_kudryavtsev/Downloads/34384984195_eec2b41136_o1.png").getImage();
+            img = new ImageIcon("/Users/bont1/Desktop/img5.png").getImage();
             g.drawImage(img, 50, 50, 300, 300, null);//выводим img
             try {
-                TimeUnit.SECONDS.sleep(1);
+                TimeUnit.SECONDS.sleep(0);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
