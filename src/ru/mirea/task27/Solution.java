@@ -14,9 +14,9 @@ public class Solution
         map.put("Messi","Leonel");
         map.put("Gruzin","Valeriy");
         map.put("Bale","Gareth");
-        map.put("Lewandowski","Robert");
+        map.put("Ronaldo","Cristiano");
         map.put("Suarez","Luis");
-        map.put("Buffon","Gianluigi");
+        map.put("Beckham","David");
         map.put("Modric","Luka");
 
         return map;

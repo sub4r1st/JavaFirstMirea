@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        File file = new File("/Users/valera_kudryavtsev/Documents/Учёба/2 курс/Java/file1.txt");
+        File file = new File("D:/JetBrainsProjects/IdeaProjects/file1.txt");
         Scanner sc = new Scanner(System.in);
 
         FileWriter writeIntoFile = new FileWriter(file);
