@@ -8,16 +8,16 @@ public class Solution
     public static HashMap<String, String> createMap()
     {
         HashMap<String, String> map = new HashMap<String, String>();
-        map.put("Feklistova","Kristina");
-        map.put("Emelyanova","Valeria");
-        map.put("Kuleshov","Sergey");
-        map.put("Feklistova","Yana");
-        map.put("Bolgar","Maria");
-        map.put("Naumova","Anna");
-        map.put("Feklistova","Kristina");
-        map.put("Bolgar","Maria");
-        map.put("Tuchina","Natalya");
-        map.put("Denisova","Anna");
+        map.put("Ronaldo","Cristiano");
+        map.put("Ibrahimovic","Zlatan");
+        map.put("Beckham","David");
+        map.put("Messi","Leonel");
+        map.put("Gruzin","Valeriy");
+        map.put("Bale","Gareth");
+        map.put("Lewandowski","Robert");
+        map.put("Suarez","Luis");
+        map.put("Buffon","Gianluigi");
+        map.put("Modric","Luka");
 
         return map;
     }
