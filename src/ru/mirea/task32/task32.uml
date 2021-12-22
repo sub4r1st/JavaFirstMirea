@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.task32</OriginalElement>
+  <nodes>
+    <node x="196.0" y="81.0">ru.mirea.task32.MovablePoint</node>
+    <node x="213.0" y="0.0">ru.mirea.task32.Movable</node>
+    <node x="360.0" y="81.0">ru.mirea.task32.MovableCircle</node>
+    <node x="0.0" y="81.0">ru.mirea.task32.MovableRectangle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.task32.MovableRectangle" target="ru.mirea.task32.Movable" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="88.0" y="56.0" />
+      <point x="268.0" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="ru.mirea.task32.MovablePoint" target="ru.mirea.task32.Movable" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="ru.mirea.task32.MovableCircle" target="ru.mirea.task32.Movable" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="433.5" y="56.0" />
+      <point x="268.0" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8216318785578748" showDependencies="false" x="253.5" y="56.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
